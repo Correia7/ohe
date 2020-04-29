@@ -20,7 +20,7 @@ var auth = require('./ohe/auth');
 var adnproxy = require('./ohe/adnproxy');
 var routes = require('./routes');
 var _ = require('underscore');
-
+//vale
 var multiprocess = nconf.get('deploy:multiprocess');
 var connect_to_stream = nconf.get('deploy:master') || !multiprocess;
 var on_heroku = nconf.get('deploy:heroku');
